@@ -1,0 +1,11 @@
+DL: https://adoptium.net/
+DL: https://developer.android.com/studio (https://redirector.gvt1.com/edgedl/android/studio/install/2024.3.1.15/android-studio-2024.3.1.15-windows.exe)
+
+Edit Environment Variables:
+Search for "Environment Variables" in the Windows search bar and select "Edit the system environment variables".
+Click the "Environment Variables..." button.   
+In the "System variables" section (or "User variables" if you only want it for your user), find the Path variable, select it, and click "Edit...".   
+Click "New" and paste the full path to the JDK's bin directory you found earlier. 
+(C:\Program Files\Eclipse Adoptium\jdk-21.0.7.6-hotspot\bin) & (C:\Users\%username%\AppData\Local\Android\Sdk\build-tools\36.0.0)
+Click "OK" on all the dialog boxes to save the changes.
+IMPORTANT: You must close your current Command Prompt/PowerShell and open a new one for the PATH changes to take effect.
